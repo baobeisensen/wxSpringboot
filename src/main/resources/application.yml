@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    七牛云
+AccessKey: gE5hz0nfz3N69wB6aLAPbKeKNfrdj_RN8NBSB32U
+SecretKey: utCWpFW3hojX5dUYu5yZTQQoJ0Wjk9G5MbMj6pYI
+domain: q1avvibo3.bkt.clouddn.com
